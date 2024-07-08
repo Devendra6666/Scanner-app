@@ -1,0 +1,16 @@
+.container{
+   width: 100%;
+   text-align: center;
+   margin-left: 33%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-left: 30%;
+    align-items: start;
+}
+.details h4{
+    margin-right: 50px;
+}

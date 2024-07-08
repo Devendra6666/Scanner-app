@@ -1,0 +1,91 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin: auto;
+}
+
+.body_form {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    /* margin: auto; */
+    /* width: 100%; */
+}
+
+.body_form_2 {
+    /* display: flex; */
+    margin: auto;
+    /* background-color: black; */
+    width: 50%;
+}
+
+.inputField {
+    /* background-color: beige; */
+    margin-top: 30px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.inputField label {
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.inputField input {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 15px;
+    outline: none;
+}
+.body_form_2 form button{
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font: 15px;
+}
+.body2{
+    display: flex;
+    margin-top: 90px;
+    flex-direction: column;
+}
+.qr_code{
+    margin: auto;
+    width: 25%;
+    overflow: hidden;
+}
+.qr_code img{
+    width: 100%;
+    object-fit: cover;
+}
+.qr_code button{
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font: 15px;
+}
+
+@media only screen and (max-width: 520px){
+    .body_form_2 {
+        width: 100%;
+    }
+    .qr_code{
+        width: 45%;
+    }
+}

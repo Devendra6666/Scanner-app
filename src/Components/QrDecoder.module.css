@@ -1,0 +1,18 @@
+
+.header{
+    margin: auto;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ /* width: 40%; */
+ margin-top: 30px;
+}
+.nav div{
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: wheat;
+    background-color: rgb(41, 41, 41);
+   height: 50px;
+   padding: 0 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    font-size: 22px;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+  
+}
+
+.links div{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.links div h1{
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+}
+.links div h1:hover{
+    color: rgb(181, 181, 181);
+    transition: all 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 520px){
+    .nav{
+       padding: 0 0px;
+    }
+    .logo h1{
+        font-size: 15px;
+    }
+    .links div h1{
+        font-size: 15px;
+    }
+}

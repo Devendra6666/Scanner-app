@@ -1,0 +1,59 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    margin: auto;
+    margin-top: 10px;
+}
+
+.body_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.body_form_2 {
+    margin: auto;
+    width: 50%;
+}
+
+.inputField {
+    margin-top: 30px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.inputField input {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 15px;
+    outline: none;
+}
+.body_form_2 form button{
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font: 15px;
+}
+.body2{
+    display: flex;
+    margin-top: 90px;
+    flex-direction: column;
+}
+.qr_code{
+    margin: auto;
+    width: 25%;
+    overflow: hidden;
+}
+.qr_code img{
+    width: 100%;
+    object-fit: cover;
+}
